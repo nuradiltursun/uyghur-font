@@ -68,7 +68,7 @@ css代码:
 
 最终代码:
 
-```
+```css
  *{
       
         font-family: uy-font,'微软雅黑','Segoe UI' !important;
