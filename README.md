@@ -24,6 +24,8 @@ english
 1. U+00-024F
 ```
 
+css代码:
+
 ```css
  @font-face {
         font-family: "uy-font";
@@ -52,12 +54,16 @@ english
 
 ----
 尽量uy-font自己要上传，汉字和英文一般没必要上传，用电脑自带的字体就行，
-我一般汉字用：微软雅黑
-英文用 ：'Segoe UI';
+我一般常用字体如下：
+1. 汉字用：微软雅黑
+2. 英文用 ：'Segoe UI';
+
+最终代码:
+
 ```
  *{
       
-        font-family: uy-font,'微软雅黑','Segoe UI';
+        font-family: uy-font,'微软雅黑','Segoe UI' !important;
        
     }
     @font-face {
@@ -71,6 +77,8 @@ english
 顺序一定要注意：
 
 维->汉->英
+
+Good lucks :)
 
 
 
